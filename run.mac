@@ -1,0 +1,15 @@
+/mydet/generator fGParticleSource
+
+/gps/source/clear
+/gps/source/add 1
+#/gps/particle mu-
+/gps/particle e-
+#/gps/particle pi-
+#/gps/particle kaon-
+#/gps/direction 0 0 1
+/gps/direction 0 0 1
+/gps/position 0. 0. 0. cm
+/gps/energy 10 GeV
+
+/run/beamOn 5
+exit

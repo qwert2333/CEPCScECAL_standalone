@@ -1,0 +1,1009 @@
+The system is: Linux - 3.10.0-1160.71.1.el7.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/3.20.0/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/3.20.0/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cc530/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cc530.dir/build.make CMakeFiles/cmTC_cc530.dir/build
+gmake[1]: Entering directory `/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc530.dir/CMakeCCompilerABI.c.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/gcc   -v -o CMakeFiles/cmTC_cc530.dir/CMakeCCompilerABI.c.o -c /cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/gcc
+Target: x86_64-pc-linux-gnu
+Configured with: /build/dkonst/gcc-clang-2/build/contrib/gcc-11.1.0/src/gcc/11.1.0/configure --prefix=/build/dkonst/gcc-clang-2/lcgcmake-install/gcc/11.1.0/x86_64-centos7 -with-system-zlib --disable-multilib --enable-languages=all --with-gnu-ld --with-gnu-as
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cc530.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cc530.dir/'
+ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/cc1 -quiet -v -iprefix /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/ -isystem /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/include /cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/share/cmake-3.20/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_cc530.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/cccD9P5p.s
+GNU C17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 11.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"
+ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/../../include"
+ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"
+ignoring nonexistent directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/include
+ /cvmfs/sft.cern.ch/lcg/views/LCG_101/x86_64-centos7-gcc11-opt/include
+ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/include
+ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed
+ /usr/local/include
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 11.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 0d2ceef36e5cd635538f03ee2d64d590
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cc530.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cc530.dir/'
+ as -v --64 -o CMakeFiles/cmTC_cc530.dir/CMakeCCompilerABI.c.o /tmp/cccD9P5p.s
+GNU assembler version 2.36.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.36.1
+COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/
+LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cc530.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cc530.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_cc530
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc530.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/gcc  -v -rdynamic CMakeFiles/cmTC_cc530.dir/CMakeCCompilerABI.c.o -o cmTC_cc530 
+Using built-in specs.
+COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/gcc
+COLLECT_LTO_WRAPPER=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /build/dkonst/gcc-clang-2/build/contrib/gcc-11.1.0/src/gcc/11.1.0/configure --prefix=/build/dkonst/gcc-clang-2/lcgcmake-install/gcc/11.1.0/x86_64-centos7 -with-system-zlib --disable-multilib --enable-languages=all --with-gnu-ld --with-gnu-as
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.1.0 (GCC) 
+COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/
+LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cc530' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cc530.'
+ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/collect2 -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccu23VGt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_cc530 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../.. CMakeFiles/cmTC_cc530.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cc530' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cc530.'
+gmake[1]: Leaving directory `/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/include]
+    add: [/cvmfs/sft.cern.ch/lcg/views/LCG_101/x86_64-centos7-gcc11-opt/include]
+    add: [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/include]
+    add: [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed]
+    add: [/usr/local/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/include] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/include]
+  collapse include dir [/cvmfs/sft.cern.ch/lcg/views/LCG_101/x86_64-centos7-gcc11-opt/include] ==> [/cvmfs/sft.cern.ch/lcg/views/LCG_101/x86_64-centos7-gcc11-opt/include]
+  collapse include dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/include] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include]
+  collapse include dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/include;/cvmfs/sft.cern.ch/lcg/views/LCG_101/x86_64-centos7-gcc11-opt/include;/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include;/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed;/usr/local/include;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cc530/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cc530.dir/build.make CMakeFiles/cmTC_cc530.dir/build]
+  ignore line: [gmake[1]: Entering directory `/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_cc530.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/gcc   -v -o CMakeFiles/cmTC_cc530.dir/CMakeCCompilerABI.c.o -c /cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/share/cmake-3.20/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/gcc]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/dkonst/gcc-clang-2/build/contrib/gcc-11.1.0/src/gcc/11.1.0/configure --prefix=/build/dkonst/gcc-clang-2/lcgcmake-install/gcc/11.1.0/x86_64-centos7 -with-system-zlib --disable-multilib --enable-languages=all --with-gnu-ld --with-gnu-as]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.1.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cc530.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cc530.dir/']
+  ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/cc1 -quiet -v -iprefix /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/ -isystem /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/include /cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/share/cmake-3.20/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_cc530.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/cccD9P5p.s]
+  ignore line: [GNU C17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"]
+  ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/../../include"]
+  ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/include]
+  ignore line: [ /cvmfs/sft.cern.ch/lcg/views/LCG_101/x86_64-centos7-gcc11-opt/include]
+  ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/include]
+  ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 0d2ceef36e5cd635538f03ee2d64d590]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cc530.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cc530.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_cc530.dir/CMakeCCompilerABI.c.o /tmp/cccD9P5p.s]
+  ignore line: [GNU assembler version 2.36.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.36.1]
+  ignore line: [COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/]
+  ignore line: [LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cc530.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cc530.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_cc530]
+  ignore line: [/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc530.dir/link.txt --verbose=1]
+  ignore line: [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/gcc  -v -rdynamic CMakeFiles/cmTC_cc530.dir/CMakeCCompilerABI.c.o -o cmTC_cc530 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/dkonst/gcc-clang-2/build/contrib/gcc-11.1.0/src/gcc/11.1.0/configure --prefix=/build/dkonst/gcc-clang-2/lcgcmake-install/gcc/11.1.0/x86_64-centos7 -with-system-zlib --disable-multilib --enable-languages=all --with-gnu-ld --with-gnu-as]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.1.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/]
+  ignore line: [LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cc530' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cc530.']
+  link line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/collect2 -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccu23VGt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_cc530 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../.. CMakeFiles/cmTC_cc530.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccu23VGt.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_cc530] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbegin.o] ==> ignore
+    arg [-L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0] ==> dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0]
+    arg [-L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc] ==> dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc]
+    arg [-L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64] ==> dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../..] ==> dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../..]
+    arg [CMakeFiles/cmTC_cc530.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/lib/gcc/x86_64-pc-linux-gnu/11.1.0]
+  collapse library dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/lib/gcc]
+  collapse library dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../..] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/lib/gcc/x86_64-pc-linux-gnu/11.1.0;/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/lib/gcc;/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/lib64;/lib64;/usr/lib64;/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_98531/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_98531.dir/build.make CMakeFiles/cmTC_98531.dir/build
+gmake[1]: Entering directory `/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_98531.dir/CMakeCXXCompilerABI.cpp.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++   -v -o CMakeFiles/cmTC_98531.dir/CMakeCXXCompilerABI.cpp.o -c /cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++
+Target: x86_64-pc-linux-gnu
+Configured with: /build/dkonst/gcc-clang-2/build/contrib/gcc-11.1.0/src/gcc/11.1.0/configure --prefix=/build/dkonst/gcc-clang-2/lcgcmake-install/gcc/11.1.0/x86_64-centos7 -with-system-zlib --disable-multilib --enable-languages=all --with-gnu-ld --with-gnu-as
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_98531.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_98531.dir/'
+ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/cc1plus -quiet -v -iprefix /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/ -isystem /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/include -D_GNU_SOURCE /cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_98531.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccka52bl.s
+GNU C++17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 11.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"
+ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"
+ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"
+ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"
+ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/../../include"
+ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"
+ignoring nonexistent directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/include
+ /cvmfs/sft.cern.ch/lcg/views/LCG_101/x86_64-centos7-gcc11-opt/include
+ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0
+ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu
+ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward
+ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/include
+ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed
+ /usr/local/include
+ /usr/include
+End of search list.
+GNU C++17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 11.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 7498e012d1078204cafaf212ab626e78
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_98531.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_98531.dir/'
+ as -v --64 -o CMakeFiles/cmTC_98531.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccka52bl.s
+GNU assembler version 2.36.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.36.1
+COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/
+LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_98531.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_98531.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_98531
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98531.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++  -v -rdynamic CMakeFiles/cmTC_98531.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_98531 
+Using built-in specs.
+COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++
+COLLECT_LTO_WRAPPER=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /build/dkonst/gcc-clang-2/build/contrib/gcc-11.1.0/src/gcc/11.1.0/configure --prefix=/build/dkonst/gcc-clang-2/lcgcmake-install/gcc/11.1.0/x86_64-centos7 -with-system-zlib --disable-multilib --enable-languages=all --with-gnu-ld --with-gnu-as
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.1.0 (GCC) 
+COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/
+LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_98531' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_98531.'
+ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/collect2 -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGS9H6o.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_98531 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../.. CMakeFiles/cmTC_98531.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_98531' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_98531.'
+gmake[1]: Leaving directory `/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/include]
+    add: [/cvmfs/sft.cern.ch/lcg/views/LCG_101/x86_64-centos7-gcc11-opt/include]
+    add: [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0]
+    add: [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu]
+    add: [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward]
+    add: [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/include]
+    add: [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed]
+    add: [/usr/local/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/include] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/include]
+  collapse include dir [/cvmfs/sft.cern.ch/lcg/views/LCG_101/x86_64-centos7-gcc11-opt/include] ==> [/cvmfs/sft.cern.ch/lcg/views/LCG_101/x86_64-centos7-gcc11-opt/include]
+  collapse include dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/include/c++/11.1.0]
+  collapse include dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/include/c++/11.1.0/x86_64-pc-linux-gnu]
+  collapse include dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/include/c++/11.1.0/backward]
+  collapse include dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/include] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include]
+  collapse include dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/include;/cvmfs/sft.cern.ch/lcg/views/LCG_101/x86_64-centos7-gcc11-opt/include;/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/include/c++/11.1.0;/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/include/c++/11.1.0/x86_64-pc-linux-gnu;/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/include/c++/11.1.0/backward;/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include;/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed;/usr/local/include;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_98531/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_98531.dir/build.make CMakeFiles/cmTC_98531.dir/build]
+  ignore line: [gmake[1]: Entering directory `/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_98531.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++   -v -o CMakeFiles/cmTC_98531.dir/CMakeCXXCompilerABI.cpp.o -c /cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/dkonst/gcc-clang-2/build/contrib/gcc-11.1.0/src/gcc/11.1.0/configure --prefix=/build/dkonst/gcc-clang-2/lcgcmake-install/gcc/11.1.0/x86_64-centos7 -with-system-zlib --disable-multilib --enable-languages=all --with-gnu-ld --with-gnu-as]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.1.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_98531.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_98531.dir/']
+  ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/cc1plus -quiet -v -iprefix /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/ -isystem /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/include -D_GNU_SOURCE /cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_98531.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccka52bl.s]
+  ignore line: [GNU C++17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"]
+  ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"]
+  ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"]
+  ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"]
+  ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/../../include"]
+  ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/include]
+  ignore line: [ /cvmfs/sft.cern.ch/lcg/views/LCG_101/x86_64-centos7-gcc11-opt/include]
+  ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0]
+  ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu]
+  ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward]
+  ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/include]
+  ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 7498e012d1078204cafaf212ab626e78]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_98531.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_98531.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_98531.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccka52bl.s]
+  ignore line: [GNU assembler version 2.36.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.36.1]
+  ignore line: [COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/]
+  ignore line: [LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_98531.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_98531.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_98531]
+  ignore line: [/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98531.dir/link.txt --verbose=1]
+  ignore line: [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++  -v -rdynamic CMakeFiles/cmTC_98531.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_98531 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/dkonst/gcc-clang-2/build/contrib/gcc-11.1.0/src/gcc/11.1.0/configure --prefix=/build/dkonst/gcc-clang-2/lcgcmake-install/gcc/11.1.0/x86_64-centos7 -with-system-zlib --disable-multilib --enable-languages=all --with-gnu-ld --with-gnu-as]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.1.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/]
+  ignore line: [LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_98531' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_98531.']
+  link line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/collect2 -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGS9H6o.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_98531 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../.. CMakeFiles/cmTC_98531.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccGS9H6o.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_98531] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbegin.o] ==> ignore
+    arg [-L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0] ==> dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0]
+    arg [-L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc] ==> dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc]
+    arg [-L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64] ==> dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../..] ==> dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../..]
+    arg [CMakeFiles/cmTC_98531.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/lib/gcc/x86_64-pc-linux-gnu/11.1.0]
+  collapse library dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/lib/gcc]
+  collapse library dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../..] ==> [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/lib/gcc/x86_64-pc-linux-gnu/11.1.0;/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/lib/gcc;/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/lib64;/lib64;/usr/lib64;/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_df093/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_df093.dir/build.make CMakeFiles/cmTC_df093.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_df093.dir/CheckIncludeFile.c.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/gcc    -o CMakeFiles/cmTC_df093.dir/CheckIncludeFile.c.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_df093
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df093.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/gcc CMakeFiles/cmTC_df093.dir/CheckIncludeFile.c.o -o cmTC_df093 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__Wabi succeeded with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_33fdb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_33fdb.dir/build.make CMakeFiles/cmTC_33fdb.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_33fdb.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ -Dcheck_cxx_compiler_flag__Wabi  -Wabi -o CMakeFiles/cmTC_33fdb.dir/src.cxx.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: ‘-Wabi’ won’t warn about anything [-Wabi]
+cc1plus: note: ‘-Wabi’ warns about differences from the most up-to-date ABI, which is also used by default
+cc1plus: note: use e.g. ‘-Wabi=11’ to warn about changes from GCC 7
+Linking CXX executable cmTC_33fdb
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33fdb.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ CMakeFiles/cmTC_33fdb.dir/src.cxx.o -o cmTC_33fdb 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__fabi_version_0 succeeded with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bfa4b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bfa4b.dir/build.make CMakeFiles/cmTC_bfa4b.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_bfa4b.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ -Dcheck_cxx_compiler_flag__fabi_version_0  -fabi-version=0 -o CMakeFiles/cmTC_bfa4b.dir/src.cxx.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bfa4b
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfa4b.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ CMakeFiles/cmTC_bfa4b.dir/src.cxx.o -o cmTC_bfa4b 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__fabi_compat_version_0 succeeded with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_611b2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_611b2.dir/build.make CMakeFiles/cmTC_611b2.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_611b2.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ -Dcheck_cxx_compiler_flag__fabi_compat_version_0  -fabi-compat-version=0 -o CMakeFiles/cmTC_611b2.dir/src.cxx.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_611b2
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_611b2.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ CMakeFiles/cmTC_611b2.dir/src.cxx.o -o cmTC_611b2 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__ffp_contract_fast succeeded with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_07d06/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_07d06.dir/build.make CMakeFiles/cmTC_07d06.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_07d06.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ -Dcheck_cxx_compiler_flag__ffp_contract_fast  -ffp-contract=fast -o CMakeFiles/cmTC_07d06.dir/src.cxx.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_07d06
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07d06.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ CMakeFiles/cmTC_07d06.dir/src.cxx.o -o cmTC_07d06 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__march_broadwell succeeded with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_587c0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_587c0.dir/build.make CMakeFiles/cmTC_587c0.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_587c0.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ -Dcheck_cxx_compiler_flag__march_broadwell  -march=broadwell -o CMakeFiles/cmTC_587c0.dir/src.cxx.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_587c0
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_587c0.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ CMakeFiles/cmTC_587c0.dir/src.cxx.o -o cmTC_587c0 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__msse2 succeeded with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_80d8c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_80d8c.dir/build.make CMakeFiles/cmTC_80d8c.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_80d8c.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ -Dcheck_cxx_compiler_flag__msse2  -msse2 -o CMakeFiles/cmTC_80d8c.dir/src.cxx.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_80d8c
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80d8c.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ CMakeFiles/cmTC_80d8c.dir/src.cxx.o -o cmTC_80d8c 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__msse3 succeeded with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_39c0e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_39c0e.dir/build.make CMakeFiles/cmTC_39c0e.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_39c0e.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ -Dcheck_cxx_compiler_flag__msse3  -msse3 -o CMakeFiles/cmTC_39c0e.dir/src.cxx.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_39c0e
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39c0e.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ CMakeFiles/cmTC_39c0e.dir/src.cxx.o -o cmTC_39c0e 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Determining if the include file pmmintrin.h exists passed with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3712a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3712a.dir/build.make CMakeFiles/cmTC_3712a.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_3712a.dir/CheckIncludeFile.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++   -msse3  -o CMakeFiles/cmTC_3712a.dir/CheckIncludeFile.cxx.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_3712a
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3712a.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++  -msse3  CMakeFiles/cmTC_3712a.dir/CheckIncludeFile.cxx.o -o cmTC_3712a 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mssse3 succeeded with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2610d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2610d.dir/build.make CMakeFiles/cmTC_2610d.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_2610d.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ -Dcheck_cxx_compiler_flag__mssse3  -mssse3 -o CMakeFiles/cmTC_2610d.dir/src.cxx.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2610d
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2610d.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ CMakeFiles/cmTC_2610d.dir/src.cxx.o -o cmTC_2610d 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Determining if the include file tmmintrin.h exists passed with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_47ecf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_47ecf.dir/build.make CMakeFiles/cmTC_47ecf.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_47ecf.dir/CheckIncludeFile.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++   -mssse3  -o CMakeFiles/cmTC_47ecf.dir/CheckIncludeFile.cxx.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_47ecf
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47ecf.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++  -mssse3  CMakeFiles/cmTC_47ecf.dir/CheckIncludeFile.cxx.o -o cmTC_47ecf 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__msse4_1 succeeded with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_46994/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_46994.dir/build.make CMakeFiles/cmTC_46994.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_46994.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ -Dcheck_cxx_compiler_flag__msse4_1  -msse4.1 -o CMakeFiles/cmTC_46994.dir/src.cxx.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_46994
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46994.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ CMakeFiles/cmTC_46994.dir/src.cxx.o -o cmTC_46994 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Determining if the include file smmintrin.h exists passed with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_98cb7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_98cb7.dir/build.make CMakeFiles/cmTC_98cb7.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_98cb7.dir/CheckIncludeFile.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++   -msse4.1  -o CMakeFiles/cmTC_98cb7.dir/CheckIncludeFile.cxx.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_98cb7
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98cb7.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++  -msse4.1  CMakeFiles/cmTC_98cb7.dir/CheckIncludeFile.cxx.o -o cmTC_98cb7 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__msse4_2 succeeded with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0c02a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0c02a.dir/build.make CMakeFiles/cmTC_0c02a.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_0c02a.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ -Dcheck_cxx_compiler_flag__msse4_2  -msse4.2 -o CMakeFiles/cmTC_0c02a.dir/src.cxx.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0c02a
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c02a.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ CMakeFiles/cmTC_0c02a.dir/src.cxx.o -o cmTC_0c02a 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mavx succeeded with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b96fd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b96fd.dir/build.make CMakeFiles/cmTC_b96fd.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_b96fd.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ -Dcheck_cxx_compiler_flag__mavx  -mavx -o CMakeFiles/cmTC_b96fd.dir/src.cxx.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b96fd
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b96fd.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ CMakeFiles/cmTC_b96fd.dir/src.cxx.o -o cmTC_b96fd 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Determining if the include file immintrin.h exists passed with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0476a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0476a.dir/build.make CMakeFiles/cmTC_0476a.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_0476a.dir/CheckIncludeFile.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++   -mavx  -o CMakeFiles/cmTC_0476a.dir/CheckIncludeFile.cxx.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_0476a
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0476a.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++  -mavx  CMakeFiles/cmTC_0476a.dir/CheckIncludeFile.cxx.o -o cmTC_0476a 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mfma succeeded with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ddcd6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ddcd6.dir/build.make CMakeFiles/cmTC_ddcd6.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_ddcd6.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ -Dcheck_cxx_compiler_flag__mfma  -mfma -o CMakeFiles/cmTC_ddcd6.dir/src.cxx.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ddcd6
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddcd6.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ CMakeFiles/cmTC_ddcd6.dir/src.cxx.o -o cmTC_ddcd6 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <immintrin.h>
+      __m128 foo(__m128 x) { return _mm_fmadd_ps(x, x, x); }
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mbmi2 succeeded with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4720f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4720f.dir/build.make CMakeFiles/cmTC_4720f.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_4720f.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ -Dcheck_cxx_compiler_flag__mbmi2  -mbmi2 -o CMakeFiles/cmTC_4720f.dir/src.cxx.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4720f
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4720f.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ CMakeFiles/cmTC_4720f.dir/src.cxx.o -o cmTC_4720f 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mavx2 succeeded with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_23a8e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_23a8e.dir/build.make CMakeFiles/cmTC_23a8e.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_23a8e.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ -Dcheck_cxx_compiler_flag__mavx2  -mavx2 -o CMakeFiles/cmTC_23a8e.dir/src.cxx.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_23a8e
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23a8e.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ CMakeFiles/cmTC_23a8e.dir/src.cxx.o -o cmTC_23a8e 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_sse4a succeeded with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b3309/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b3309.dir/build.make CMakeFiles/cmTC_b3309.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_b3309.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ -Dcheck_cxx_compiler_flag__mno_sse4a  -mno-sse4a -o CMakeFiles/cmTC_b3309.dir/src.cxx.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b3309
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3309.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ CMakeFiles/cmTC_b3309.dir/src.cxx.o -o cmTC_b3309 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_xop succeeded with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b78c3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b78c3.dir/build.make CMakeFiles/cmTC_b78c3.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_b78c3.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ -Dcheck_cxx_compiler_flag__mno_xop  -mno-xop -o CMakeFiles/cmTC_b78c3.dir/src.cxx.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b78c3
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b78c3.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ CMakeFiles/cmTC_b78c3.dir/src.cxx.o -o cmTC_b78c3 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_fma4 succeeded with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e8e5b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e8e5b.dir/build.make CMakeFiles/cmTC_e8e5b.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_e8e5b.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ -Dcheck_cxx_compiler_flag__mno_fma4  -mno-fma4 -o CMakeFiles/cmTC_e8e5b.dir/src.cxx.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e8e5b
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8e5b.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ CMakeFiles/cmTC_e8e5b.dir/src.cxx.o -o cmTC_e8e5b 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512f succeeded with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e13ee/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e13ee.dir/build.make CMakeFiles/cmTC_e13ee.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_e13ee.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ -Dcheck_cxx_compiler_flag__mno_avx512f  -mno-avx512f -o CMakeFiles/cmTC_e13ee.dir/src.cxx.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e13ee
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e13ee.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ CMakeFiles/cmTC_e13ee.dir/src.cxx.o -o cmTC_e13ee 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512vl succeeded with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aa4e2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aa4e2.dir/build.make CMakeFiles/cmTC_aa4e2.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_aa4e2.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ -Dcheck_cxx_compiler_flag__mno_avx512vl  -mno-avx512vl -o CMakeFiles/cmTC_aa4e2.dir/src.cxx.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_aa4e2
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa4e2.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ CMakeFiles/cmTC_aa4e2.dir/src.cxx.o -o cmTC_aa4e2 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512pf succeeded with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_343b6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_343b6.dir/build.make CMakeFiles/cmTC_343b6.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_343b6.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ -Dcheck_cxx_compiler_flag__mno_avx512pf  -mno-avx512pf -o CMakeFiles/cmTC_343b6.dir/src.cxx.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_343b6
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_343b6.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ CMakeFiles/cmTC_343b6.dir/src.cxx.o -o cmTC_343b6 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512er succeeded with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_56650/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_56650.dir/build.make CMakeFiles/cmTC_56650.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_56650.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ -Dcheck_cxx_compiler_flag__mno_avx512er  -mno-avx512er -o CMakeFiles/cmTC_56650.dir/src.cxx.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_56650
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56650.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ CMakeFiles/cmTC_56650.dir/src.cxx.o -o cmTC_56650 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512cd succeeded with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6b25f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6b25f.dir/build.make CMakeFiles/cmTC_6b25f.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_6b25f.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ -Dcheck_cxx_compiler_flag__mno_avx512cd  -mno-avx512cd -o CMakeFiles/cmTC_6b25f.dir/src.cxx.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6b25f
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b25f.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ CMakeFiles/cmTC_6b25f.dir/src.cxx.o -o cmTC_6b25f 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512dq succeeded with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f7e24/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f7e24.dir/build.make CMakeFiles/cmTC_f7e24.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_f7e24.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ -Dcheck_cxx_compiler_flag__mno_avx512dq  -mno-avx512dq -o CMakeFiles/cmTC_f7e24.dir/src.cxx.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f7e24
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7e24.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ CMakeFiles/cmTC_f7e24.dir/src.cxx.o -o cmTC_f7e24 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512bw succeeded with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1d052/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1d052.dir/build.make CMakeFiles/cmTC_1d052.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_1d052.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ -Dcheck_cxx_compiler_flag__mno_avx512bw  -mno-avx512bw -o CMakeFiles/cmTC_1d052.dir/src.cxx.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1d052
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d052.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ CMakeFiles/cmTC_1d052.dir/src.cxx.o -o cmTC_1d052 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512ifma succeeded with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_65277/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_65277.dir/build.make CMakeFiles/cmTC_65277.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_65277.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ -Dcheck_cxx_compiler_flag__mno_avx512ifma  -mno-avx512ifma -o CMakeFiles/cmTC_65277.dir/src.cxx.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_65277
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65277.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ CMakeFiles/cmTC_65277.dir/src.cxx.o -o cmTC_65277 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Performing C++ SOURCE FILE Test check_cxx_compiler_flag__mno_avx512vbmi succeeded with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9051e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9051e.dir/build.make CMakeFiles/cmTC_9051e.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_9051e.dir/src.cxx.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ -Dcheck_cxx_compiler_flag__mno_avx512vbmi  -mno-avx512vbmi -o CMakeFiles/cmTC_9051e.dir/src.cxx.o -c /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9051e
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9051e.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/g++ CMakeFiles/cmTC_9051e.dir/src.cxx.o -o cmTC_9051e 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <cstdio>
+      int main() { return 0; }
+Determining if the function XOpenDisplay exists in the /usr/lib64/libX11.so;/usr/lib64/libXext.so passed with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_03035/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_03035.dir/build.make CMakeFiles/cmTC_03035.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_03035.dir/CheckFunctionExists.c.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/gcc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_03035.dir/CheckFunctionExists.c.o -c /cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_03035
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03035.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/gcc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_03035.dir/CheckFunctionExists.c.o -o cmTC_03035  /usr/lib64/libX11.so /usr/lib64/libXext.so 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b0647/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b0647.dir/build.make CMakeFiles/cmTC_b0647.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_b0647.dir/CheckFunctionExists.c.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/gcc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_b0647.dir/CheckFunctionExists.c.o -c /cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b0647
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0647.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/gcc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_b0647.dir/CheckFunctionExists.c.o -o cmTC_b0647 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1cc1a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1cc1a.dir/build.make CMakeFiles/cmTC_1cc1a.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_1cc1a.dir/CheckFunctionExists.c.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/gcc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_1cc1a.dir/CheckFunctionExists.c.o -c /cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1cc1a
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1cc1a.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/gcc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_1cc1a.dir/CheckFunctionExists.c.o -o cmTC_1cc1a 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3b9a0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3b9a0.dir/build.make CMakeFiles/cmTC_3b9a0.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_3b9a0.dir/CheckFunctionExists.c.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/gcc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_3b9a0.dir/CheckFunctionExists.c.o -c /cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3b9a0
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b9a0.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/gcc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_3b9a0.dir/CheckFunctionExists.c.o -o cmTC_3b9a0 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5c711/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5c711.dir/build.make CMakeFiles/cmTC_5c711.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_5c711.dir/CheckFunctionExists.c.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/gcc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_5c711.dir/CheckFunctionExists.c.o -c /cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5c711
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c711.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/gcc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_5c711.dir/CheckFunctionExists.c.o -o cmTC_5c711 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b901a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b901a.dir/build.make CMakeFiles/cmTC_b901a.dir/build
+gmake[1]: 进入目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_b901a.dir/CheckFunctionExists.c.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/gcc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_b901a.dir/CheckFunctionExists.c.o -c /cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b901a
+/cvmfs/sft.cern.ch/lcg/releases/CMake/3.20.0-790a8/x86_64-centos7-gcc11-opt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b901a.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/11.1.0-e80bf/x86_64-centos7/bin/gcc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_b901a.dir/CheckFunctionExists.c.o -o cmTC_b901a  -lICE 
+gmake[1]: 离开目录“/scratchfs/atlas/guofy/BeamTest2022/ecal_ana/Simulation/CEPCScECAL/build/CMakeFiles/CMakeTmp”
+
+
+
